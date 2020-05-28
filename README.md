@@ -14,3 +14,16 @@ To run the pipeline for training and evaluation on the framwork, simply run the 
 Rscript side_info_qcc_framework.R TREC {labeller info enabled} {item info enabled} {response info enabled} {session info enabled} {#number of burn-in iterations} {#number of item true label samples to keep after burn-in} {#number of responses per labeller} {#number of responses per item}
 
 Command inputs:
+
+labeller info enabled: 0 (disabled) or 1 (enabled)
+item info enabled:: 0 (disabled) or 1 (enabled)
+response info enabled: 0 (disabled) or 1 (enabled)
+session info enabled: 0 (disabled) or 1 (enabled)
+#number of burn-in iterations: e.g. 100
+#number of item true label samples to keep after burn-in: e.g. 100
+#number of responses per labeller: e.g. 50
+#number of responses per item: e.g. 3
+
+Example command for running the script on the TREC dataset:
+
+Rscript side_info_qcc_framework.R TREC 1 1 1 1 100 100 54 3
