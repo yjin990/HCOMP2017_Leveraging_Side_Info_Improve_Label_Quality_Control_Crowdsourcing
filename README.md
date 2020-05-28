@@ -16,12 +16,19 @@ Rscript side_info_qcc_framework.R TREC {labeller info enabled} {item info enable
 Command inputs:
 
 labeller info enabled: 0 (disabled) or 1 (enabled)
+
 item info enabled:: 0 (disabled) or 1 (enabled)
+
 response info enabled: 0 (disabled) or 1 (enabled)
+
 session info enabled: 0 (disabled) or 1 (enabled)
+
 #number of burn-in iterations: e.g. 100
+
 #number of item true label samples to keep after burn-in: e.g. 100
+
 #number of responses per labeller: e.g. 50
+
 #number of responses per item: e.g. 3
 
 Example command for running the script on the TREC dataset:
