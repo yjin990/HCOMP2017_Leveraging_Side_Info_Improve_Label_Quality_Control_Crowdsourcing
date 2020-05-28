@@ -26,4 +26,4 @@ Command inputs:
 
 Example command for running the script on the TREC dataset:
 
-  Rscript side_info_qcc_framework.R data/TREC 1 1 1 1 100 100 54 3
+> Rscript side_info_qcc_framework.R data/TREC 1 1 1 1 100 100 54 3
