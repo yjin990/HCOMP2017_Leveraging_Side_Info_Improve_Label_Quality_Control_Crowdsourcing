@@ -1,4 +1,4 @@
-Authors: Yuan Jin, Mark Carman, Dongwoo Kim and Lexing Xi
+Authors: Yuan Jin, Mark Carman, Dongwoo Kim and Lexing Xie
 
 Paper: Leveraging Side Information to Improve Label Quality Control in Crowd-sourcing," Proceedings of the Fifth Conference on
 Human Computation and Crowdsourcing, 2017 (HCOMP2017).
