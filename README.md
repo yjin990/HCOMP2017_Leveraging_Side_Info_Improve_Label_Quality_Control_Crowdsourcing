@@ -33,4 +33,4 @@ session info enabled: 0 (disabled) or 1 (enabled)
 
 Example command for running the script on the TREC dataset:
 
-Rscript side_info_qcc_framework.R TREC 1 1 1 1 100 100 54 3
+Rscript side_info_qcc_framework.R data/TREC 1 1 1 1 100 100 54 3
